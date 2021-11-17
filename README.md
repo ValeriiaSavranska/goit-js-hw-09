@@ -49,7 +49,7 @@ npm run dev
 свойстве `homepage`, например
 [https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
 
-## Файлы и папки
+### Файлы и папки
 
 - Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
   `src/sass/main.scss`

@@ -64,6 +64,9 @@ const options = {
     };
 
     const onClick = () => {
+      if (timerId) {
+        clearInterval(timerId);
+      }
       showTimer();
       timerId = setInterval(showTimer, 1000);
     };
